@@ -1,10 +1,5 @@
-var _user$project$Players_Models$new2 = {id: '1', name: 'Cheddar'};
 var _user$project$Players_Models$new = {id: '0', name: '', level: 1};
 var _user$project$Players_Models$Player = F3(
 	function (a, b, c) {
 		return {id: a, name: b, level: c};
-	});
-var _user$project$Players_Models$Cheese = F2(
-	function (a, b) {
-		return {id: a, name: b};
 	});

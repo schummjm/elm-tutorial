@@ -1,8 +1,5 @@
 var _user$project$View$page = function (model) {
-	return A2(
-		_elm_lang$html$Html$map,
-		_user$project$Messages$PlayersMsg,
-		_user$project$Players_List$view(model.players));
+	return _user$project$Players_List$view(model.players);
 };
 var _user$project$View$view = function (model) {
 	return A2(

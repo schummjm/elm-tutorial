@@ -13,11 +13,13 @@ view players =
         , list players
         ]
 
+
 nav : List Player -> Html Msg
 nav players =
     div [ class "clearfix mb2 white bg-black" ]
         [ div [ class "left p2" ] [ text "Jonathan's Website" ]
-        , div [ class "right p2" ] [ text "hello world" ] ]
+        , div [ class "right p2" ] [ text "hello world" ]
+        ]
 
 
 list : List Player -> Html Msg
